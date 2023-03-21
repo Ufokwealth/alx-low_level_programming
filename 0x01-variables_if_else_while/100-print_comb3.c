@@ -6,15 +6,21 @@
 * Return: Always 0 (Success)
 */
 int main(void)
-{int k;
-for (k = 0; k < 10; k++)
 {
-putchar((k / 10) + '0');
-putchar((k % 10) + '0');
-if (k != 9)
+int k, p;
+for (k = 0; k < 9; k++)
 {
+for (p = k + 1; p <= 9; p++)
+{
+if (p != k)
+{
+putchar((k);
+putchar((p);
+if (k == 8 && p == 9)
+continue;
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
