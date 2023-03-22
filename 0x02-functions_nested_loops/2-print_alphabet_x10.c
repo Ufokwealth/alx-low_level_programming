@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 * print_alphabet - prints alphabet 10 times
+* Description: uses _putchar function to print
 * Return: Always 0 (Success)
 */
 void print_alphabet_x10(void)
