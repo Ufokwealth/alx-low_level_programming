@@ -2,7 +2,7 @@
 /**
 * int print_sign - sign of a number
 * @n: An input number
-* Description: A function that prints a sign
+* Description: A function that prints a sign of a number
 * Return: 1 if the number is positive, 0 if number is 0, or
 * -1 if number is negative
 */
