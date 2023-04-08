@@ -1,18 +1,17 @@
 #include "main.h"
 /**
 * _abs - check code
-* @er: An integre input
-* Description: This function returns absolute value of a number
+* @n: An integre input
 * Return: Absolut value of number r
 */
-int _abs(int r)
+int _abs(int n)
 {
-if (r > 0 || r == 0)
+if (n > 0 || n == 0)
 {
-return (r);
+return (n);
 }
 else
-return (r * -1);
+return (n * -1);
 }
 
 
