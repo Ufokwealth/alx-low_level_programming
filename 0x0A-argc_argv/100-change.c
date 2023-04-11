@@ -3,13 +3,12 @@
 #include <ctype.h>
 /**
  * main - a program that prints the minimum number of coins
- * to make change for an amount of money
+ * to make change for an amount of money 
  * @argc: argument count
  * @argv: argument value
- * Return: 1 if the number of arguments passed is not
- * exactly or 0 in otherwise
+ * Return: 0 (Success), 1 (Error)
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 int amount, coins = 0;
 if (argc == 2)
