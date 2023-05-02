@@ -25,7 +25,7 @@ if (s != NULL)
 {
 for (; i < len; i++)
 {
-s[i] = *str;;
+s[i] = *str;
 str++;
 }
 s[i] = '\0';
